@@ -1,0 +1,142 @@
+body { 
+	background: url(../img/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.wrapper {
+	margin:auto;
+	width:680px;
+	margin-top:60px;
+	height:570px;
+/*	-moz-border-radius: 8px;
+	border-radius: 8px;*/
+}
+
+.left {
+	width:350px;
+	height:540px;
+	padding:15px;
+	float:left;
+	background-color:rgba(0,0,0,.8);
+	opacity:1;
+}
+.right {
+	width:280px;
+	float:left;
+	background-color:white;
+	opacity:.93;
+	padding:0px 10px;
+	height:570px;
+}
+
+.avatar {
+	width:75px;
+	height:75px;
+	background-image:url(http://graph.facebook.com/brian.muse/picture?type=large); no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+
+ 	float:left;
+ 	margin-right:10px;
+}
+h1 {
+	color: white;
+	font-size:18px;
+	margin:0;
+}
+h2 {
+	color: #fff;
+	font-size:14px;
+	font-weight:normal;
+	margin-top:5px;
+}
+#social-links a{
+	color:white;
+	display:inline-block;
+	padding:0 2px;
+}
+#social-links a:hover{
+	color:#B575E6;
+}
+.bio p{
+	color:white;
+	font-size:13px;
+}
+a {
+	color:#D7A3FF;
+	text-decoration:none;
+}
+a:hover {
+	color:#B575E6;
+	text-decoration:none;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h3{
+	color:white;
+}
+
+.company{
+	clear:both;
+	height:64px;
+	margin-bottom:8px;
+}
+.company-img{
+	float:left;
+}
+.company-img img {
+	width:60px;
+	height:60px;
+	margin-right:5px;
+}
+.company-title a{
+	color:white;
+	font-size:14px;
+	text-decoration:none;
+	font-weight:bold;
+	padding:2px 1px;
+	display:inline-block;
+}
+.company p{
+	color:white;
+	font-size:13px;
+	margin:3px;
+}
+
+.project{
+	clear:both;
+	height:50px;
+	margin-bottom:5px;
+}
+.project-img{
+	float:left;
+}
+.project-img img {
+	width:40px;
+	height:40px;
+	margin-right:5px;
+}
+.project-title a{
+	color:white;
+	font-size:14px;
+	text-decoration:none;
+	font-weight:bold;
+	padding:2px 1px;
+	display:inline-block;
+}
+.project p{
+	color:white;
+	font-size:13px;
+	margin:3px;
+}
