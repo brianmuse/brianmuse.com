@@ -4,20 +4,24 @@ body {
 	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
+ 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+ 	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 .wrapper {
 	margin:auto;
 	width:680px;
 	margin-top:60px;
-	height:570px;
+	height:580px;
 /*	-moz-border-radius: 8px;
 	border-radius: 8px;*/
 }
 
 .left {
 	width:350px;
-	height:540px;
+	height:550px;
 	padding:15px;
 	float:left;
 	background-color:rgba(0,0,0,.8);
@@ -29,7 +33,7 @@ body {
 	background-color:white;
 	opacity:.93;
 	padding:0px 10px;
-	height:570px;
+	height:580px;
 }
 
 .avatar {
@@ -46,14 +50,15 @@ body {
 }
 h1 {
 	color: white;
-	font-size:18px;
+	font-size:24px;
 	margin:0;
+	font-weight:normal;
 }
 h2 {
 	color: #fff;
 	font-size:14px;
 	font-weight:normal;
-	margin-top:5px;
+	margin:0px;
 }
 #social-links a{
 	color:white;
@@ -66,6 +71,9 @@ h2 {
 .bio p{
 	color:white;
 	font-size:13px;
+}
+p.desc{
+	padding-top: 8px;
 }
 a {
 	color:#D7A3FF;
@@ -85,6 +93,7 @@ hr {
 
 h3{
 	color:white;
+	font-weight:normal;
 }
 
 .company{
