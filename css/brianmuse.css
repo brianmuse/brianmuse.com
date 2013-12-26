@@ -1,5 +1,5 @@
 body { 
-	background: url(../img/bg.jpg) no-repeat center center fixed; 
+	background: url(../img/bg-darker.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
  	-o-background-size: cover;
@@ -24,14 +24,14 @@ body {
 	height:550px;
 	padding:15px;
 	float:left;
-	background-color:rgba(0,0,0,.8);
+	background-color:rgba(0,0,0,.7);
 	opacity:1;
 }
 .right {
 	width:280px;
 	float:left;
 	background-color:white;
-	opacity:.93;
+	opacity:.90;
 	padding:0px 10px;
 	height:580px;
 }
