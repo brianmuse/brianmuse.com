@@ -1,5 +1,5 @@
-body { 
-	background: url(../img/bg-darker.jpg) no-repeat center center fixed; 
+body {
+	background: url(../img/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
  	-o-background-size: cover;
@@ -14,14 +14,14 @@ body {
 	margin:auto;
 	width:680px;
 	margin-top:60px;
-	height:580px;
+	height:600px;
 /*	-moz-border-radius: 8px;
 	border-radius: 8px;*/
 }
 
 .left {
 	width:350px;
-	height:550px;
+	height:570px;
 	padding:15px;
 	float:left;
 	background-color:rgba(0,0,0,.7);
@@ -33,13 +33,13 @@ body {
 	background-color:white;
 	opacity:.90;
 	padding:0px 10px;
-	height:580px;
+	height:600px;
 }
 
 .avatar {
 	width:75px;
 	height:75px;
-	background-image:url(http://graph.facebook.com/brian.muse/picture?type=large); no-repeat center center fixed; 
+	background-image:url(http://graph.facebook.com/brian.muse/picture?type=large); no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
  	-o-background-size: cover;
@@ -64,6 +64,9 @@ h2 {
 	color:white;
 	display:inline-block;
 	padding:0 2px;
+}
+#social-links p{
+	margin:3px 0;
 }
 #social-links a:hover{
 	color:#B575E6;
@@ -114,13 +117,13 @@ h3{
 	font-size:14px;
 	text-decoration:none;
 	font-weight:bold;
-	padding:2px 1px;
+	padding:0px 1px;
 	display:inline-block;
 }
 .company p{
 	color:white;
-	font-size:13px;
-	margin:3px;
+	font-size:12px;
+	margin:0px;
 }
 
 .project{
@@ -141,11 +144,11 @@ h3{
 	font-size:14px;
 	text-decoration:none;
 	font-weight:bold;
-	padding:2px 1px;
+	padding:0px 1px;
 	display:inline-block;
 }
 .project p{
 	color:white;
-	font-size:13px;
-	margin:3px;
+	font-size:12px;
+	margin:0px;
 }
