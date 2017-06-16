@@ -1,9 +1,11 @@
-body {
-	background: url(../img/bg.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
- 	-o-background-size: cover;
- 	background-size: cover;
+html, body {
+	background: #111;
+	background: -webkit-linear-gradient(#111, #333);
+	background: -o-linear-gradient(#111, #333);
+	background: -moz-linear-gradient(#111, #333);
+	background: linear-gradient(#111, #333);
+	margin:0;
+	height:100%;
  	font-family: "Open Sans", Helvetica, Arial, sans-serif;
  	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
@@ -39,7 +41,7 @@ body {
 .avatar {
 	width:75px;
 	height:75px;
-	background-image:url(http://graph.facebook.com/brian.muse/picture?type=large); no-repeat center center fixed;
+	background-image:url(https://pbs.twimg.com/profile_images/862383608362921984/KqfR3lsI_400x400.jpg); no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
  	-o-background-size: cover;
@@ -69,7 +71,7 @@ h2 {
 	margin:3px 0;
 }
 #social-links a:hover{
-	color:#B575E6;
+	color:#6898e6;
 }
 .bio p{
 	color:white;
@@ -79,11 +81,11 @@ p.desc{
 	padding-top: 8px;
 }
 a {
-	color:#D7A3FF;
+	color: #8ebbff;
 	text-decoration:none;
 }
 a:hover {
-	color:#B575E6;
+	color: #6898e6;
 	text-decoration:none;
 }
 
@@ -119,6 +121,17 @@ h3{
 	font-weight:bold;
 	padding:0px 1px;
 	display:inline-block;
+}
+.retired::after {
+	content: 'Retired';
+	color: white;
+	font-size:11px;
+	font-weight:bold;
+	padding:2px 4px;
+	background: #444;
+	margin-left:4px;
+	position:relative;
+	top:-2px;
 }
 .company p{
 	color:white;
